@@ -2,7 +2,8 @@
 
  ## 假设检验
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230320173523111.png" alt="image-20230320173523111" style="zoom:67%;" />
+![image](https://user-images.githubusercontent.com/61351650/236594935-1f3612e2-d702-49cc-ac72-9076b4bea6e9.png)
+
 
 
 
@@ -85,8 +86,7 @@ A/B 测试的语境中，假设⼀般是指**关于实验组和对照组指标�
 
 
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230320191254900.png" alt="image-20230320191254900" style="zoom:30%;" />
-
+![image](https://user-images.githubusercontent.com/61351650/236594949-15f4baa5-7c41-4ac3-954d-210b8803c439.png)
 
 
 > 在统计中我们习惯说样本量⼤于30 就是很⼤的样本，就可以⽤样本⽅差来近似总体⽅差，这样我们就知道总体⽅差，就可以⽤Z检验了，但其实30只是经验值，⼤于30的总体⽅差也是样本⽅差近似的，所以如果准确的说的话样本量⼤于30，在总体⽅差未知的情况下，也要⽤T检验。
@@ -117,7 +117,8 @@ A/B 测试的语境中，假设⼀般是指**关于实验组和对照组指标�
 
 
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230320191817210.png" alt="image-20230320191817210" style="zoom:33%;" />
+![image](https://user-images.githubusercontent.com/61351650/236594968-69788ead-b25d-487a-9c55-2f27bf184b73.png)
+
 
 
 
@@ -306,7 +307,7 @@ $1-\beta = \text{sensitivity}$： 通常为80%
 
 ## 实验框架
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321142228297.png" alt="image-20230321142228297" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/61351650/236594985-32ab456c-73a6-4876-a500-20c252a0786d.png)
 
 
 
@@ -456,7 +457,8 @@ A/B 测试的指标分为评价指标(Evaluation Metrics)和护栏指标(Guardra
 - 衡量 A/B 测试是否符合业务上的长期目标，不会因为优化短期指标而打乱长期目标。
 - 确保从统计上尽量减少出现各种偏差(Bias)，得到尽可能值得信任的实验结果。
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321191906184.png" alt="image-20230321191906184" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/61351650/236594997-dca885d1-3db3-40ef-b92e-641c533d9bd3.png)
+
 
 ##### 业务品质层面
 
@@ -628,7 +630,9 @@ A/A 测试(A/A Test)也是把被测试对象分成实验组和对照组。但不
 
 
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321190625176.png" alt="image-20230321190625176" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/61351650/236595010-a7fdf9bf-9f06-4be2-abb6-749a22a17e01.png)
+
+
 
 
 
@@ -824,7 +828,8 @@ $$
 
 
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321193620306.png" alt="image-20230321193620306" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/61351650/236595031-5154218a-12a6-44af-839d-7192233d1e84.png)
+
 
 
 
@@ -839,8 +844,8 @@ $$
 以上公式其实是在两组评价指标的综合方差为 $\sigma^2$ ，两组评价指标的差值为 $\delta$ 情况下，要使 A/B 测试结果**达到统计显著性的最小样本量。**
 
 
+![image](https://user-images.githubusercontent.com/61351650/236595057-398ed6c0-ed04-4ef1-b5a8-d55bc455e415.png)
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321193250662.png" alt="image-20230321193250662" style="zoom:50%;" />
 
 
 
@@ -980,7 +985,8 @@ $$
 
 
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321142813890.png" alt="image-20230321142813890" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/61351650/236595095-cfaea4d9-1e32-415f-ab8d-c7a750e8ecb0.png)
+
 
 
 
@@ -1028,7 +1034,8 @@ $$
 
 
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321143836278.png" alt="image-20230321143836278" style="zoom:50%;" />
+ ![image](https://user-images.githubusercontent.com/61351650/236595104-9982b8d8-1ae0-4f0b-b081-a21eb3991da3.png)
+
 
 正交实验的意义：各分层之间的流量是正交的，可以保证不同流量层的实验不会互相影响。将一个实验A的实验组和对照组的流量随机均匀分给另一个实验B的实验组和对照组，由于分配是均匀的，所以实验A对实验B的影响被均匀打散，从而避免实验A对实验B的结果产生影响。
 
@@ -1038,7 +1045,8 @@ $$
 
 > 指两个实验流量独立，用户只能进入其中一个实验。比如进入X实验的用户就不能进入Y实验。
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321144008107.png" alt="image-20230321144008107" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/61351650/236595114-b34ff8b5-f0fb-4abc-aa60-c123d815ee73.png)
+
 
 
 
@@ -1300,7 +1308,8 @@ $$
 
 
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321200417312.png" alt="image-20230321200417312" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/61351650/236595127-a839e333-e804-43af-8355-789759266703.png)
+
 
 
 
@@ -1362,7 +1371,8 @@ $$
 
    - 变化需要条件触发。在被分配到实验组的所有用户中，只有满足一定条件的用户才会触 发 A/B 测试中的变化。
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321200616206.png" alt="image-20230321200616206" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/61351650/236595134-36190bef-08ab-4fa8-8263-da23d1f3b2aa.png)
+
 
 
 
@@ -1382,7 +1392,8 @@ $$
 
 
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321202817916.png" alt="image-20230321202817916" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/61351650/236595139-c21ca5c0-feea-4c87-9749-752adca1cf7e.png)
+
 
 
 
@@ -1446,7 +1457,7 @@ $$
 
 ### 常见问题
 
-![image-20230321203002676](/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321203002676.png)
+![image](https://user-images.githubusercontent.com/61351650/236595151-263bcf8f-ed0c-4d7b-b15e-9c92a3529e84.png)
 
 
 
@@ -1695,7 +1706,8 @@ AB测试所需的时间：
 
 
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321203708821.png" alt="image-20230321203708821" style="zoom:40%;" />
+![image](https://user-images.githubusercontent.com/61351650/236595163-fb81519d-596a-4213-9432-2238754162f8.png)
+
 
 
 
@@ -1712,8 +1724,7 @@ AB测试所需的时间：
 在这个例子当中，其实是因为实验组和对照组虽然在总体上实现了我们在设计 实验时要求的样本量均分。但是在北京和上海这两个细分市场中却分布不均匀，没有实现样本量均分。
 
 
-
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321203756636.png" alt="image-20230321203756636" style="zoom:30%;" />
+![image](https://user-images.githubusercontent.com/61351650/236595174-2c074696-07b1-4f0f-98a1-1115e9ee7dfd.png)
 
 
 
@@ -1798,16 +1809,14 @@ AB测试所需的时间：
 这里我们用 P(A)来表示出现事件 A 的概率。P(每个检验出现第一类错误)=5%，那么P(每个检验不出现第一类错误) = (1-5%)=95%，所以 P(20 个检验中完全没有第一类错误)= 95% 的 20 次方。
 
 
-
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321204250201.png" alt="image-20230321204250201" style="zoom:40%;" />
-
+![image](https://user-images.githubusercontent.com/61351650/236595202-35b895cb-9aa0-4bc4-a41f-e1e127235f1d.png)
 
 
 这里的 P(至少出现一个第一类错误)的概率又叫做 **FWER** (Family-wise Error Rate)。
 
 通过计算得出来的概率是 64%。这就意味着当同时比较 20 个检验时，在这 20 个结果中，至少出现一个第一类错误的概率是 64%。看看，这是不是个很大的概率了呢? 事实上，随着检验次数的增加，这个概率会越来越大.
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321204322801.png" alt="image-20230321204322801" style="zoom:33%;" />
+![image](https://user-images.githubusercontent.com/61351650/236595186-2713dbec-630b-4f1e-8b5c-15100db03598.png)
 
 根据这个图我们可以 得出两个结论:
 
@@ -2284,7 +2293,8 @@ AB测试有助于快速迭代产品功能，促进业务的持续增长。
 
 
 
-<img src="/Users/siheng_huang/Library/Application%20Support/typora-user-images/image-20230321202403503.png" alt="image-20230321202403503" style="zoom:50%;" />
+![image](https://user-images.githubusercontent.com/61351650/236595215-2f4f2bc6-0da8-4da2-9883-e9c6b2a32cf4.png)
+
 
 
 
